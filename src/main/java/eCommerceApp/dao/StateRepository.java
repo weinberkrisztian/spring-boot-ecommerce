@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
-@CrossOrigin("http://hosting2078848.online.pro")
+@CrossOrigin("http://weinberwebshop.s3-website.eu-central-1.amazonaws.com")
 @RepositoryRestResource(collectionResourceRel = "states", path = "states")
 public interface StateRepository extends JpaRepository<State, Integer> {
 
