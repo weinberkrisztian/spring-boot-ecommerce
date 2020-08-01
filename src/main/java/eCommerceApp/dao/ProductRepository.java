@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestParam;
 
 
-@CrossOrigin("http://hosting2078848.online.pro")
+@CrossOrigin("http://weinberwebshop.s3-website.eu-central-1.amazonaws.com")
 public interface ProductRepository extends JpaRepository<Product, Long> {
 
     Page<Product> findByCategoryId(@RequestParam("id") Long id, Pageable pageable);
